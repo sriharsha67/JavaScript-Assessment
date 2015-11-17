@@ -14,6 +14,6 @@ exports.numbersAnswers = {
   },
 
   multiply: function(a, b) {
-
+    return Math.round( 100000 * (a * b)) / 100000
   }
 };
